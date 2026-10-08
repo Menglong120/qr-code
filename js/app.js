@@ -273,7 +273,7 @@
       btn.title = icon.name;
       btn.innerHTML = icon.svg;
       btn.addEventListener('click', () => {
-        state.logoSrc = getSvgDataUri(icon.svg);
+        state.logoSrc = icon.imageSrc || getSvgDataUri(icon.svg);
         showLogoPreviewBar(state.logoSrc, icon.name);
         triggerQRUpdate();
         showToast(`Selected icon: ${icon.name}`, 'info');

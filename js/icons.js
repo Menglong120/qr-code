@@ -1,6 +1,13 @@
 // Preset SVG icons encoded as Data URIs for QR center logo
 const PRESET_ICONS = [
   {
+    id: 'qrcraft-logo',
+    name: 'Brand QR Logo',
+    category: 'Brand',
+    imageSrc: 'img/logo.png',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0f172a"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="3" height="3"/><rect x="18" y="13" width="3" height="8"/><rect x="13" y="18" width="3" height="3"/></svg>`
+  },
+  {
     id: 'link',
     name: 'Website Link',
     category: 'General',
